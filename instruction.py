@@ -35,12 +35,12 @@ class Instruction:
     @property
     def dest(self) -> str:
         # only for c instructions with destinations
-        return self.__dest if self.type == 'C' and self.__dest != '' else None
+        return self.__dest if self.type == 'C' and self.__dest != None else ''
     
     @property
     def comp(self) -> str:
-        return self.__comp if self.type == 'C' and self.__comp != '' else None
+        return self.__comp if self.type == 'C' and self.__comp != None else ''
     
     @property
     def jump(self) -> str:
-        return self.__jump if self.type == 'C' and self.__jump != '' else None
+        return self.__jump if self.type == 'C' and self.__jump != None else ''
