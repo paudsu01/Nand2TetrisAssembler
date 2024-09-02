@@ -50,7 +50,7 @@ class Parser:
         label_pattern = re.compile(r'^\(([^0-9][0-9A-Za-z._$:]*)\)$')
 
         for line in lines:
-            no_whitespace = ''.join([i for i in line if i != ' '])
+            no_whitespace = ''.join([i for i in line.strip() if i != ' '])
             # Ignore empty lines
             if no_whitespace != '':
 
