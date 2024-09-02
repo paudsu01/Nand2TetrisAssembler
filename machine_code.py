@@ -75,7 +75,7 @@ class Machine_code():
 #       return bin(int(value))[2:].zfill(15)
 
         try:
-            int_value = int(value) % 16384
+            int_value = int(value) % 32768
             return_value = ''
             for i in range(14,-1,-1):
                 if int_value >= 2 ** i:
