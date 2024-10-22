@@ -1,5 +1,5 @@
 ## Introduction
-This simple assembler was done as part of Project 6 of the nand2tetris course. This assembler translates HACK assembly language into the binary instructions and creates a `.hack` file
+This simple assembler was done as part of Project 6 of my [nand2tetris](https://github.com/paudsu01/nand2tetris) course. This assembler translates HACK assembly language into the binary instructions and creates a `.hack` file
 
 ## Prerequisites
 * Need `python` installed
@@ -13,5 +13,5 @@ This simple assembler was done as part of Project 6 of the nand2tetris course. T
 *  Assemble the `pong.asm` inside the `sample_files` directory with `python assembler.py sample_files/pong.asm`.
 *  This will produce `pong.hack` file inside the `sample_files` directory
   
-## Asssumtions
+## Asssumptions
 * It assumes the `asm` file provided is error-free.
